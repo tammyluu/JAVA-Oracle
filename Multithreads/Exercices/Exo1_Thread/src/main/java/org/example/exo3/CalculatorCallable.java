@@ -1,9 +1,9 @@
-package org.example;
+package org.example.exo3;
 
 import java.util.concurrent.*;
 
 public class CalculatorCallable implements Callable<String> {
-    private int num;
+    private final int num;
     public CalculatorCallable(int num) {
         this.num = num;
     }
