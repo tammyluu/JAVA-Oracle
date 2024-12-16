@@ -23,7 +23,7 @@ public class Exo5 implements Callable<Integer> {
     public static void main(String[] args) {
 
         ExecutorService executor = Executors.newFixedThreadPool(3);
-
+        //Future<Integer>[] result = new Future[10];
         List<Future<Integer>> result = new ArrayList<>();
 
         try {

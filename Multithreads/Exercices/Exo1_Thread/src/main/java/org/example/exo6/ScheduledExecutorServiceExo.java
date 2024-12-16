@@ -7,16 +7,29 @@ import java.util.concurrent.TimeUnit;
 public class ScheduledExecutorServiceExo {
     public static void main(String[] args) {
 
-        scheduledExecutorServiceExo6();
+        ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(3);
+
+        // planifier la premiere tache : les tâches ne se repètent pas
+                scheduler.schedule(() -> {
+            System.out.println("Tâche 1 exécutée après 1 seconde.");
+        }, 1, TimeUnit.SECONDS);
+
+        scheduler.schedule(() -> {
+            System.out.println("Tâche 2 exécutée après 2 seconde.");
+        }, 2, TimeUnit.SECONDS);
+
+        scheduler.schedule(() -> {
+            System.out.println("Tâche 3 exécutée après 3 seconde.");
+        }, 3, TimeUnit.SECONDS);
+
+        scheduler.schedule(() -> {
+            System.out.println("Toutes les tâches sont terminées.");
+        }, 4, TimeUnit.SECONDS);
+
+
+
     }
 
-    public static void  scheduledExecutorServiceExo6() {
 
-        ScheduledExecutorService ses = Executors.newScheduledThreadPool(1);
-
-        ses.schedule( ()-> System.out.println("Tâche exécutée apès 1 seconds: "), 1, TimeUnit.SECONDS);
-
-
-    }
 }
 
