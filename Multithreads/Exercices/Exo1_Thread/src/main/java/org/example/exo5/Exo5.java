@@ -24,24 +24,23 @@ public class Exo5 implements Callable<Integer> {
 
         ExecutorService executor = Executors.newFixedThreadPool(3);
 
-        List<Future<Integer>> résultats = new ArrayList<>();
+        List<Future<Integer>> result = new ArrayList<>();
 
         try {
 
             for (int i = 1; i <= 10; i++) {
                 Exo5 task= new Exo5(i);
-                Future<Integer> futur = executor.submit(task) ;
-                résultats.add(futur);
+                Future<Integer> future = executor.submit(task) ;
+                result.add(future);
             }
 
-            // Récupérer et afficher les résultats
-            for (Future<Integer> futur : résultats) {
-                System.out.println("Résultat de la tâche "+futur.get());
+
+            for (Future<Integer> future : result) {
+                System.out.println("Résultat de la tâche "+future.get() +" est : " + future.resultNow());
             }
         } catch (Exception e) {
             System.out.println("Une erreur est survenue : " + e.getMessage());
         } finally {
-            // Arrête proprement l'ExecutorService
             executor.shutdown();
         }
     }
