@@ -15,7 +15,7 @@ public class CalculatorCallable implements Callable<String> {
     }
 
     public static void main(String[] args) {
-        ExecutorService executor = Executors.newCachedThreadPool();
+        ExecutorService executor = Executors.newSingleThreadExecutor();
         try {
             for (int i = 1; i <= 5; i++) {
                 CalculatorCallable calculatorCallable = new CalculatorCallable(i);
