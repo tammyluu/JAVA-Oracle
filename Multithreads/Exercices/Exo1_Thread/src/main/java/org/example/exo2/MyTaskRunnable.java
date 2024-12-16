@@ -1,15 +1,19 @@
-package org.example;
+package org.example.exo2;
 
 public class MyTaskRunnable implements Runnable {
+    int num;
+    public MyTaskRunnable(int num) {
+        this.num = num;
+    }
     @Override
     public void run() {
-        for (int i = 0; i <5 ; i++) {
-            System.out.println("Le carré de " + i + "est " + i*i);
+
+            System.out.println("Le carré de " + num + " est " + num*num);
             try {
                 Thread.sleep(300);
             }catch (InterruptedException e) {
                 System.out.println("Erreur de thread" + Thread.currentThread().getName());
             }
         }
-    }
+
 }
