@@ -26,7 +26,7 @@ public class ScheduledExecutorServiceExo {
             System.out.println("Toutes les tâches sont terminées.");
         }, 4, TimeUnit.SECONDS);
 
-
+        scheduler.shutdown();
 
     }
 
