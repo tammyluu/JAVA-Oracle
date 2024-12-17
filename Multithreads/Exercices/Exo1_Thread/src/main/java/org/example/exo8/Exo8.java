@@ -16,10 +16,10 @@ public class Exo8 {
     }
 
     private static Thread[] createAtomicThreads() {
-        Thread[] atomicThreads = new Thread[5];
+        Thread[] atomicThreads = new Thread[10];
         for (int i = 0; i < atomicThreads.length; i++) {
             atomicThreads[i] = new Thread(() -> {
-                for (int j = 0; j <2000 ; j++) {
+                for (int j = 0; j <1000 ; j++) {
                     counter.incrementAndGet();
                 }
             });

@@ -7,6 +7,11 @@ public class Exo10 {
         AtomicLong sharedValue = new AtomicLong(1);
         int numThreads = 5;
         long[] multiplicators = {2,3,4,5,6};
+        Thread[] threads = new Thread[numThreads];
+        for (int i = 0; i < numThreads; i++) {
+            final int index = i;
+
+        }
 
     }
 }
