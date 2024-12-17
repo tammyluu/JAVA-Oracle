@@ -8,13 +8,14 @@ public class Exo9 {
     public static void main(String[] args) {
 
         AtomicInteger count = new AtomicInteger(0);
-        int numThreads = 10 ;
-        Thread[] threads = new Thread[numThreads];
-        for (int i = 0; i < numThreads ; i++) {
+
+        Thread[] threads = new Thread[10];
+        for (int i = 0; i < 10; i++) {
             threads[i] = new Thread(() -> {
                 while (true){
                     int actualValue = count.get();
-                    if (actualValue  <10) {
+                    if (actualValue < 10) {
+                        // compareAndSet : verifier et met à jour  la valeur de manière atomique
                         boolean success = count.compareAndSet(actualValue,actualValue + 1);
                         if (success) {
                             System.out.println(Thread.currentThread().getName() + " a incrémenté le compteur à " + (actualValue + 1));
@@ -27,11 +28,13 @@ public class Exo9 {
                     }
                 }
             });
-        }
-        for (int i = 0; i < numThreads ; i++) {
             threads[i].start();
         }
-        for (int i = 0; i < numThreads ; i++) {
+
+        /*for (int i = 0; i < 10 ; i++) {
+            threads[i].start();
+        }*/
+        for (int i = 0; i < 10 ; i++) {
             try {
                 threads[i].join();
             }catch (InterruptedException e) {

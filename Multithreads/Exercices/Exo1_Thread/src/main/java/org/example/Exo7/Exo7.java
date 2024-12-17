@@ -10,12 +10,22 @@ public class Exo7 {
 
 
     public static void main(String[] args) {
-        ScheduledExecutorService sch = Executors.newScheduledThreadPool(1);
+        ScheduledExecutorService sch = Executors.newSingleThreadScheduledExecutor();
+
 
         AtomicInteger count = new AtomicInteger(0);
         int max = 5;
+        sch.scheduleAtFixedRate(()->{
+            int i = count.incrementAndGet();
+            System.out.println("Message périodique " + i);
+            if (i == 5) {
+                sch.shutdown();
+                System.out.println("Programme terminé. ");
 
-        Runnable task = () -> {
+            }
+        },1 ,2,TimeUnit.SECONDS);
+
+       /* Runnable task = () -> {
             int i = count.incrementAndGet();
             System.out.println("Message périodique " + count);
 
@@ -24,7 +34,7 @@ public class Exo7 {
                 sch.shutdown();
             }
         };
-        sch.scheduleAtFixedRate(task,1,2, TimeUnit.SECONDS);
+        sch.scheduleAtFixedRate(task,1,2, TimeUnit.SECONDS);*/
 
         }
 
