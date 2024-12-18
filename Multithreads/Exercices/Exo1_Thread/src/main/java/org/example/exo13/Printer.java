@@ -8,6 +8,13 @@ public class Printer {
 
     private final Lock lock = new ReentrantLock();
 
+    /*
+    **Rappel** :
+- `lock()` → Attend toujours jusqu'à ce que le verrou soit disponible.
+- `tryLock()` → N'attend pas, retourne immédiatement si le verrou n'est pas disponible.
+- `tryLock(timeout, TimeUnit)` → Attend jusqu'à ce que le verrou soit disponible ou que le délai soit écoulé.
+    */
+
     public void print(String taskName) {
         System.out.println(taskName + " tente d'utiliser l'imprimante...");
         try {
@@ -28,6 +35,7 @@ public class Printer {
             System.out.println(taskName + " a été interrompu.");
         }
     }
+
     static class PrintTask implements Runnable {
         private final Printer printer;
 
