@@ -32,6 +32,6 @@ public class Main {
          thread1.join();
          thread2.join();
 
-    System.out.println("État final de la liste : " + sharedResource.getList());
+    System.out.println("État final de la liste : " + sharedResource);
     }
 }
