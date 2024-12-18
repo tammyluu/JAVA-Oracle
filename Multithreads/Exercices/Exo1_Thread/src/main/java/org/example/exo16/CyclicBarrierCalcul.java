@@ -1,38 +1,60 @@
 package org.example.exo16;
 
+import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class CyclicBarrierCalcul {
     public static void main(String[] args) {
-         int[] tabs = {1,2,3,4,5,6,7,8};
-         int numberOfThreads = 4;
-         int chunkSize = tabs.length/numberOfThreads;
-         
-         int[] partialSums = new int[numberOfThreads];
-         
-         CyclicBarrier barrier = new CyclicBarrier(numberOfThreads, ()->{
-             int total = 0;
-             for ( int sum :partialSums){
-                 total += sum;
-             }
-             System.out.println("Somme total = " + total);
-         });
+        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8};
+        int threadCount = 4;
+        int size = numbers.length / threadCount;
 
-        for (int i = 0; i <numberOfThreads ; i++) {
-            final int index = i;
-            new Thread(()->{
-                int start = index*chunkSize;
-                int end = (index == numberOfThreads-1) ? tabs.length :start + chunkSize;
+        AtomicInteger totalSum = new AtomicInteger(0);
 
+
+        CyclicBarrier barrier = new CyclicBarrier(threadCount, () -> {
+            System.out.println("Somme totale calculée = " + totalSum.get());
+        });
+
+        Thread[] threads = new Thread[threadCount];
+
+        for (int i = 0; i < threadCount; i++) {
+            int start = i * size;
+            int end = start + size;
+
+            threads[i] = new Thread(() -> {
                 int partialSum = 0;
-                for (int j = 0; j < end ; j++) {
-                    partialSum += tabs[j];
-                    
+                for (int j = start; j < end; j++) {
+                    partialSum += numbers[j];
                 }
-                partialSums[index] = partialSum;
-                System.out.println(Thread.currentThread().getName() + " a calculé une somme partielle de (indice : " + start +" à indice : " + (end - 1 + " ) : " + partialSum));
-            }).start();
-            
+
+                System.out.println(Thread.currentThread().getName()
+                        + " a calculé une somme partielle de (indice : " + start + " à indice : " + (end - 1) + ") : " + partialSum);
+
+                // Ajouter la somme partielle à la somme totale de manière atomique
+                totalSum.addAndGet(partialSum);
+
+                try {
+                   barrier.await();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            });
+
+            threads[i].start();
         }
+
+
+        for (Thread thread : threads) {
+            try {
+                thread.join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+
+        System.out.println("Programme terminé.");
     }
+
 }
