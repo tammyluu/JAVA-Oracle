@@ -36,33 +36,34 @@ public class Printer {
         }
     }
 
-    static class PrintTask implements Runnable {
-        private final Printer printer;
-
-        public PrintTask(Printer printer) {
-            this.printer = printer;
-        }
-
-        @Override
-        public void run() {
-            printer.print(Thread.currentThread().getName());
-        }
-    }
 
     public static void main(String[] args) throws InterruptedException {
         Printer printer = new Printer();
 
-        Thread task1 = new Thread(new PrintTask(printer), "Tâche-1");
-        Thread task2 = new Thread(new PrintTask(printer), "Tâche-2");
-        Thread task3 = new Thread(new PrintTask(printer), "Tâche-3");
+        Runnable task1 = ()->{
+            printer.print("Task1");
 
-        task1.start();
-        task2.start();
-        task3.start();
+        };
+        Runnable task2 = ()->{
+            printer.print("Task1");
 
-        task1.join();
-        task2.join();
-        task3.join();
+        };
+        Runnable task3 = ()->{
+            printer.print("Task1");
+
+        };
+
+        Thread t1 = new Thread(task1, "Tâche-1");
+        Thread t2 = new Thread(task2, "Tâche-2");
+        Thread t3 = new Thread(task3, "Tâche-3");
+
+        t1.start();
+        t2.start();
+        t3.start();
+
+        t1.join();
+        t2.join();
+        t3.join();
 
         System.out.println("Toutes les tâches sont terminées.");
     }
