@@ -3,7 +3,7 @@ package org.example.exo19;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 public class ConcurrentQueueExo {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         ConcurrentLinkedQueue<String> queue = new ConcurrentLinkedQueue<>();
 
@@ -20,7 +20,6 @@ public class ConcurrentQueueExo {
             }
         });
 
-        // Thread consommateur
         Thread consumer = new Thread(() -> {
             for (int i = 0; i < 10; i++) {
                 String removedElement = queue.poll();
@@ -40,12 +39,8 @@ public class ConcurrentQueueExo {
         producer.start();
         consumer.start();
 
-        try {
-            producer.join();
-            consumer.join();
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-        }
+        producer.join();
+        consumer.join();
 
         System.out.println("État final de la file : " + queue);
     }
