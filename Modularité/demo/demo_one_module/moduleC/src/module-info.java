@@ -1,4 +1,4 @@
 module moduleC {
-    exports yourPackage;
-    exports herPackage;
+    exports yourPackage to moduleD;
+    exports herPackage to moduleD;
 }
