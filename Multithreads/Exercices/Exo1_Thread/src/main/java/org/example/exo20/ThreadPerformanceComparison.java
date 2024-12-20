@@ -3,7 +3,7 @@ package org.example.exo20;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class ThreadPerfprmanceComparison {
+public class ThreadPerformanceComparison {
     public static void main(String[] args) {
         int threads = 100_000;
         long nativeStarTime = System.currentTimeMillis();
