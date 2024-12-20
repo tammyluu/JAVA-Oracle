@@ -1,47 +1,49 @@
 package org.example.exo19;
 
+
+
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-public class ConcurrentQueueExo {
+public class ConcurrentQueueExoVersion2 {
     public static void main(String[] args) throws InterruptedException {
 
         ConcurrentLinkedQueue<String> queue = new ConcurrentLinkedQueue<>();
 
-        Runnable producer = () -> {
+        Thread producer = new Thread(() -> {
             for (int i = 0; i < 10; i++) {
                 String element = "Producer-Element-" + i;
                 queue.add(element);
                 System.out.println("Producer a ajouté : " + element);
-
-            }
-        };
-
-        Runnable consumer = () -> {
-            for (int i = 0; i < 10; i++) {
-                String removedElement = queue.poll(); // retire et retourne le premier element ou nut si la file est vide
                 try {
                     Thread.sleep(100);
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
                 }
-                if (removedElement != null) {
-                    System.out.println("Comsumer a retiré : " + removedElement);
-                } else {
-                    System.out.println( "Consumer n'a trouvé aucun élément à retirer.");
-                }
-
             }
-        };
-        Thread producerThread = new Thread(producer);
-        Thread consumerThread = new Thread(consumer);
+        });
 
-        producerThread.start();
-        consumerThread.start();
+        Thread consumer = new Thread(() -> {
+            for (int i = 0; i < 10; i++) {
+                String removedElement = queue.poll();
+                if (removedElement != null) {
+                    System.out.println("Consumer a retiré : " + removedElement);
+                } else {
+                    System.out.println("Consumer n'a trouvé aucun élément à retirer.");
+                }
+                try {
+                    Thread.sleep(150);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                }
+            }
+        });
 
-       producerThread.join();
-       consumerThread.join();
+        producer.start();
+        consumer.start();
+
+        producer.join();
+        consumer.join();
 
         System.out.println("État final de la file : " + queue);
     }
 }
-
