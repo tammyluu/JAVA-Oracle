@@ -8,6 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="bookAPI" />
-
+    <orderEntry type="module" module-name="inventory" />
   </component>
 </module>

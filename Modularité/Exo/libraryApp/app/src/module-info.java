@@ -4,6 +4,6 @@ requires checkOut;
 requires inventory;
 requires emailNotification;
 requires reports;
-    requires java.desktop;
+
 
 }

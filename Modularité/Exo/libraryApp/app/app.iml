@@ -7,5 +7,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="report" />
+    <orderEntry type="module" module-name="inventory" />
+    <orderEntry type="module" module-name="checkOut" />
+    <orderEntry type="module" module-name="emailNotification" />
+    <orderEntry type="module" module-name="bookAPI" />
   </component>
 </module>

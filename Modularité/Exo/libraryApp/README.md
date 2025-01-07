@@ -30,6 +30,9 @@ javac -d out/emailNotification --module-path out emailNotification/src/module-in
 ```cmd
 javac -d out/report --module-path out report/src/module-info.java report/src/reports/InventoryReport.java
 
+#### Étape 6 : Compiler `module app` 
+```cmd
+javac -d out/app --module-path out app/src/module-info.java app/src/app/LibraryApp.java
 
 # Execution du programme principale
 java --module-path out -m app/app.LibraryApp
