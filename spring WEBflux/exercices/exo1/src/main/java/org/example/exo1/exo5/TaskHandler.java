@@ -21,13 +21,13 @@ public class TaskHandler {
     public Mono<ServerResponse> getTaskById(ServerRequest request) {
         String id = request.pathVariable("id");
         return taskService.getTask(id)
-                .flatMap(product -> ServerResponse.ok().bodyValue(product))
+                .flatMap(task -> ServerResponse.ok().bodyValue(task))
                 .switchIfEmpty(ServerResponse.notFound().build());  
     }
     public Mono<ServerResponse> createTask(ServerRequest request) {
         return request.bodyToMono(Task.class)
                 .flatMap(taskService::addTask)
-                .flatMap(product -> ServerResponse.ok().bodyValue(product));
+                .flatMap(task -> ServerResponse.ok().bodyValue(task));
     }
 
     public Mono<ServerResponse> updateTask(ServerRequest request) {

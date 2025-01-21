@@ -7,14 +7,15 @@ import org.springframework.web.reactive.function.server.RouterFunctions;
 import org.springframework.web.reactive.function.server.ServerResponse;
 
 import static org.springframework.web.reactive.function.server.RequestPredicates.*;
+import static org.springframework.web.reactive.function.server.RouterFunctions.route;
 
 @Configuration
 public class TaskRouter {
 
     @Bean
     public RouterFunction<ServerResponse> routeTasks(TaskHandler handler) {
-        return RouterFunctions
-                .route(GET("/api/tasks"), handler::getAllTasks)
+        return
+                route(GET("/api/tasks"), handler::getAllTasks)
                 .andRoute(GET("/api/tasks/{id}"), handler::getTaskById)
                 .andRoute(POST("/api/tasks"), handler::createTask)
                 .andRoute(PUT("/api/tasks/{id}"), handler::updateTask)
