@@ -54,10 +54,14 @@ public class OrderController {
     }
 
     @PutMapping("/{id}")
-    public Mono<ResponseEntity<Order>> updateOrderStatus(@PathVariable Long id, @RequestBody String status) {
+    public Mono<ResponseEntity<Order>> updateOrderStatus(@PathVariable Long id, @RequestBody String rawStatus) {
         try {
-            // Convertir la chaîne reçue en une instance de OrderStatus
+
+            String status = rawStatus.replace("\"", "").trim();
+
+            // Convertir la chaîne en OrderStatus
             OrderStatus newStatus = OrderStatus.valueOf(status.toUpperCase());
+
             return orderService.updateOrderStatusPending(id, newStatus)
                     .map(ResponseEntity::ok)
                     .defaultIfEmpty(ResponseEntity.notFound().build());
@@ -65,6 +69,7 @@ public class OrderController {
             return Mono.just(ResponseEntity.badRequest().build());
         }
     }
+
 
 
     @DeleteMapping("/{id}")
