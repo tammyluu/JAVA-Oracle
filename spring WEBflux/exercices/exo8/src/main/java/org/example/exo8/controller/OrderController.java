@@ -42,9 +42,9 @@ public class OrderController {
     }
 
     @GetMapping("/paged")
-    public Flux<ResponseEntity<Order>> getPagedOrders(@RequestParam int page, @RequestParam int size) {
-        return orderService.getPageOrders(page,size)
-                .map(ResponseEntity::ok);
+    public Flux<Order> getPagedOrders(@RequestParam int page, @RequestParam int size) {
+        return orderService.getPageOrders(page,size);
+
     }
 
     @PostMapping
@@ -69,8 +69,6 @@ public class OrderController {
             return Mono.just(ResponseEntity.badRequest().build());
         }
     }
-
-
 
     @DeleteMapping("/{id}")
     public Mono<ResponseEntity<Object>> deleteOrder(@PathVariable Long id) {
