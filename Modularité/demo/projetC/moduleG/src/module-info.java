@@ -1,0 +1,3 @@
+module moduleG {
+    exports ingredient;
+}

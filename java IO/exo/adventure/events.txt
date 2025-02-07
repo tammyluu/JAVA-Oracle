@@ -1,0 +1,3 @@
+Un labyrinthe obscur se dresse devant vous,Explorer,Échec
+Une embuscade de voleurs vous surprend,Combattre,Succès
+Vous trouvez une arme légendaire enfouie dans la terre,Prendre l'arme,Échec

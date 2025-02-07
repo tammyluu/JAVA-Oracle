@@ -18,36 +18,19 @@ import reactor.core.publisher.Mono;
 @EnableAutoConfiguration
 public class SecurityConfig {
 
-
     @Bean
     public SecurityWebFilterChain springSecurityFilterChain(ServerHttpSecurity http) {
         return http
-                .authorizeExchange()
-                .pathMatchers("/admin/**").hasRole("ADMIN")
-                .pathMatchers("/user/**").hasRole("USER")
-                .anyExchange().authenticated()
-                .and()
+                .authorizeExchange( exchange ->
+                        exchange.pathMatchers("/api/rooms").hasAnyRole("USER","ADMIN"))
+                                .pathMatchers("/api/rooms").hasRole("ADMIN")
+                                .anyExchange().authenticated()
+                )
                 .httpBasic()
                 .and()
-                .csrf().disable()
                 .build();
     }
-    @Bean
-    public MapReactiveUserDetailsService userDetailsService() {
-        UserDetails user = User.withDefaultPasswordEncoder()
-                .username("User")
-                .password("root")
-                .roles("USER")
-                .build();
 
-        UserDetails admin = User.withDefaultPasswordEncoder()
-                .username("Admin")
-                .password("1234")
-                .roles("ADMIN")
-                .build();
-
-        return new MapReactiveUserDetailsService(user, admin);
-    }
 
 
 

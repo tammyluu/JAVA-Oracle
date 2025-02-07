@@ -1,12 +1,11 @@
 package org.example.exo21;
-
-import java.util.concurrent.ExecutorService;
+import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Executors;
 
 public class VirtualThreadServer {
     public static void main(String[] args) {
            int maxConnections = 1000;
-           try (ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor()){
+           try (var executor = Executors.newVirtualThreadPerTaskExecutor()){
                System.out.println("Simulation en cours avec " + maxConnections + " connections virtuelles ") ;
                for (int i = 0; i < maxConnections; i++) {
                    int connectedId = i;
@@ -26,4 +25,5 @@ public class VirtualThreadServer {
             Thread.currentThread().interrupt();
         }
     }
+
 }

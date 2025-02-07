@@ -1,0 +1,36 @@
+Début de l'aventure pour : Character: { |name tata'|strength 90|health 80}
+Événement : Vous trouvez une arme légendaire enfouie dans la terre
+Résultat : Échec
+Santé restante : 70
+L'aventure se termine ici. Santé finale : 70
+--- Fin de l'aventure ---
+Début de l'aventure pour : Character: { |name toto'|strength 100|health 90}
+Événement : Vous trouvez une arme légendaire enfouie dans la terre
+Résultat : Échec
+Santé restante : 80
+L'aventure se termine ici. Santé finale : 80
+--- Fin de l'aventure ---
+Début de l'aventure pour : Character: { |name toto'|strength 100|health 90}
+Événement : Un labyrinthe obscur se dresse devant vous
+Résultat : Échec
+Santé restante : 80
+Événement : Un labyrinthe obscur se dresse devant vous
+Résultat : Échec
+Santé restante : 70
+Événement : Un labyrinthe obscur se dresse devant vous
+Résultat : Échec
+Santé restante : 60
+Événement : Vous trouvez une arme légendaire enfouie dans la terre
+Résultat : Succès
+Événement : Un labyrinthe obscur se dresse devant vous
+Résultat : Échec
+Santé restante : 50
+Événement : Une embuscade de voleurs vous surprend
+Résultat : Succès
+Événement : Vous trouvez une arme légendaire enfouie dans la terre
+Résultat : Succès
+Événement : Une embuscade de voleurs vous surprend
+Résultat : Échec
+Santé restante : 40
+L'aventure se termine ici. Santé finale : 40
+--- Fin de l'aventure ---

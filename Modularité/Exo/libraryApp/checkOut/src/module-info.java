@@ -1,4 +1,4 @@
 module checkOut {
-    requires  bookAPI;
+    requires transitive bookAPI;
     exports  checkOut;
 }

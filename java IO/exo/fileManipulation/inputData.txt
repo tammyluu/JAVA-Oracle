@@ -1,4 +1,4 @@
 Hello JAVA!
-java is amazing.
-This line has no keyword.
-Learn Java today!
+Java is amazing.
+This line has no keyword Java.
+Learn java today!

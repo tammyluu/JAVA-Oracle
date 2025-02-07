@@ -10,9 +10,9 @@ public class Main {
 
         String[] lines = {
                 "Hello JAVA!",
-                "java is amazing.",
+                "Java is amazing.",
                 "This line has no keyword.",
-                "Learn Java today!"
+                "Learn java today!"
         };
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(inputFilePath))) {
             for (String line : lines) {

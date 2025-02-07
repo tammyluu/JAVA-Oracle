@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Person:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8e22b9f-99f9-4b07-86ac-0fdcdb653837" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/person/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/person/PersonServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quizAPIProject/src/main/java/org/example/quizapiproject/model/Option.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quizAPIProject/src/main/java/org/example/quizapiproject/model/Option.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modularité/Exo/libraryApp/app/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modularité/Exo/libraryApp/app/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modularité/Exo/libraryApp/checkOut/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modularité/Exo/libraryApp/checkOut/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Multithreads/Exercices/Exo1_Thread/src/main/java/org/example/exo20/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multithreads/Exercices/Exo1_Thread/src/main/java/org/example/exo20/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Multithreads/Exercices/Exo1_Thread/src/main/java/org/example/exo21/VirtualThreadServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multithreads/Exercices/Exo1_Thread/src/main/java/org/example/exo21/VirtualThreadServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Multithreads/demo/demo_eight_thread/src/main/java/org/example/NativeThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multithreads/demo/demo_eight_thread/src/main/java/org/example/NativeThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/demo/demo_console/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/demo/demo_console/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/demo/demo_console/src/main/java/org/example/BufferReaderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/demo/demo_console/src/main/java/org/example/BufferReaderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/demo/demo_serialization/src/main/java/org/example/SerializationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/demo/demo_serialization/src/main/java/org/example/SerializationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/demo/demo_serialization/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/demo/demo_serialization/src/main/java/org/example/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/activityLog/journal_backup.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/activityLog/journal_backup.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/activityLog/src/main/java/org/example/ActivityJournal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/activityLog/src/main/java/org/example/ActivityJournal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/activityLog/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/activityLog/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/advanture/events.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/advanture/exercice4.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/advanture/src/main/java/org/example/Character.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/advanture/src/main/java/org/example/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/advanture/src/main/java/org/example/Monster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/adventure/events.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/adventure/events.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/bookSerial_Deserial/book.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/bookSerial_Deserial/book.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/bookSerial_Deserial/src/main/java/org/example/DeserializationBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/bookSerial_Deserial/src/main/java/org/example/DeserializationBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/bookSerial_Deserial/src/main/java/org/example/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/bookSerial_Deserial/src/main/java/org/example/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/bookSerial_Deserial/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/bookSerial_Deserial/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/bookSerial_Deserial/src/main/java/org/example/SerializationBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/bookSerial_Deserial/src/main/java/org/example/SerializationBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/fileManipulation/inputData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/fileManipulation/inputData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/fileManipulation/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/fileManipulation/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/fileManipulation/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/fileManipulation/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-I/O/demo/demo_file/src/main/java/org/example/BinaryFileHandle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-I/O/demo/demo_file/src/main/java/org/example/TextFileHandle.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2rRQuKXHwZspSC5r2KNd2RWnj0E" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Tomcat Server.Tomcat 10.1.24.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.person" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 10.1.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.24" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="Person:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Person_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="f35ff4c0-a22b-45b8-8895-c4d3c2450daf" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Person:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8e22b9f-99f9-4b07-86ac-0fdcdb653837" name="Changes" comment="" />
+      <created>1736519628688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736519628688</updated>
+      <workItem from="1736519629622" duration="4746000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

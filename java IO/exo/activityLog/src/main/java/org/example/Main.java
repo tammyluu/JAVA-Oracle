@@ -11,15 +11,17 @@ public class Main {
         ActivityJournal.checkFileIsExisted(ActivityJournal.BINARY_FILE);
 
         do {
-            System.out.println("\n--- Menu ---");
-            System.out.println("1. Ajouter une activité");
-            System.out.println("2. Afficher les activités");
-            System.out.println("3. Sauvegarder en binaire");
-            System.out.println("4. Lire le fichier binaire");
-            System.out.println("5. Quitter");
-            System.out.print("Choisissez une option : ");
+            System.out.println("""
+        --- Menu ---
+        1. Ajouter une activité
+        2. Afficher les activités
+        3. Sauvegarder en binaire
+        4. Lire le fichier binaire
+        5. Quitter
+        Choisissez une option :\s"""); // \s : whiteSpace
 
             choice = sc.nextInt();
+            sc.nextLine(); //consume la nouvelle ligne
             switch (choice) {
                 case 1:
                     ActivityJournal.addActivity();

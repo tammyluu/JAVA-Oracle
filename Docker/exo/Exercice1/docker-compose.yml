@@ -1,0 +1,111 @@
+
+volumes:
+  mongo_data:
+    driver: local
+  mysql_data:
+    driver: local
+
+networks:
+  project:
+
+services:
+  # Database
+  mongodb:
+    image: mongo:latest
+    container_name: mongoDB
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: classroom
+
+  sql:
+    image: mysql:latest
+    container_name: sql
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: your_password
+      MYSQL_DATABASE: student
+    networks:
+      - project
+    volumes:
+      -  $HOME/docker/volumes/mysql:/var/lib/mysql mysql
+
+  #Back
+  student:
+    container_name: student
+    ports:
+      - 8085:8085
+    networks:
+      - project
+    environment:
+      URL_DATABASE: jdbc:mysql://sql:3306/student
+      DATA_USERNAME: your_username
+      DATA_PASSWORD: your_password
+      PORT_STUDENT: ${PORT_STUDENT}
+    build:
+      context: ./Student
+      dockerfile: .Dockerfile
+    depends_on:
+      sql:
+        condition: service_healthy
+
+
+  classroom:
+    container_name: classroom
+    ports:
+      - 8081:8081
+    environment:
+      MONGO_URL: mongodb://mongo:27017
+      PORT_CLASSROOM: ${PORT_CLASSROOM}
+    networks:
+      - project
+    build:
+      context: ./Classeroom
+      dockerfile: .Dockerfile
+    depends_on:
+      - mongodb
+
+  gateway:
+    container_name: gateway
+    ports:
+      - 8082:8082
+    networks:
+      - project
+    build:
+      context: ./Gateway
+      dockerfile: .Dockerfile
+
+  grade:
+    container_name: grade
+    ports:
+      - 8083:8083
+    networks:
+      - project
+    build:
+      context: ./Grade
+      dockerfile: .Dockerfile
+
+  matiers:
+    container_name: matiere
+    ports:
+      - 8083:8083
+    networks:
+      - project
+    build:
+      context: ./Matiere
+      dockerfile: .Dockerfile
+
+  teacher:
+    container_name: teacher
+    ports:
+      - 8083:8083
+    networks:
+      - project
+    build:
+      context: ./Teacher
+      dockerfile: .Dockerfile

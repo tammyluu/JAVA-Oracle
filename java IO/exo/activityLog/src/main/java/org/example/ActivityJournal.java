@@ -60,14 +60,13 @@ public class ActivityJournal {
         ) {
             String line;
 
-
             while ((line = reader.readLine()) != null) {
 
                 bos.write(line.getBytes());
-                bos.write(System.lineSeparator().getBytes());
+                bos.write("\n".getBytes());
+                System.out.println("Journal sauvegardé en binaire dans : " + BINARY_FILE);
             }
 
-            System.out.println("Journal sauvegardé en binaire dans : " + BINARY_FILE);
         } catch (IOException e) {
             System.out.println("Erreur lors de sauvegarde en binaire : " + e.getMessage());
         }
@@ -79,7 +78,6 @@ public class ActivityJournal {
         try (BufferedInputStream bis = new BufferedInputStream(new FileInputStream(BINARY_FILE))) {
             byte[] buffer = new byte[1024];
             int bytesRead;
-
             while ((bytesRead = bis.read(buffer)) != -1) {
                 String content = new String(buffer, 0, bytesRead);
                 System.out.print(content);
@@ -88,6 +86,7 @@ public class ActivityJournal {
             System.err.println("Erreur lors de la lecture du fichier binaire : " + e.getMessage());
         }
     }
+
 
 
 

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be23b712-15eb-41ba-8043-4ffa0afb1d79" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../demo_exception_webflux/src/main/java/org/example/demo_exception_webflux/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_exception_webflux/src/main/java/org/example/demo_exception_webflux/SecurityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JEE/exercice/Person/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JEE/exercice/Person/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JEE/exercice/Person/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JEE/exercice/Person/src/main/java/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JEE/exercice/Person/src/main/java/org/example/person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JEE/exercice/Person/src/main/java/org/example/person/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JEE/exercice/Person/src/main/java/org/example/person/PersonServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JEE/exercice/Person/src/main/java/org/example/person/PersonServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JEE/exercice/Person/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JEE/exercice/Person/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JEE/exercice/Person/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JEE/exercice/Person/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JEE/exercice/PersonJSP/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JEE/exercice/PersonJSP/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JEE/exercice/PersonJSP/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JEE/exercice/PersonJSP/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JEE/exercice/PersonJSP/src/main/java/org/example/personjsp/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JEE/exercice/PersonJSP/src/main/java/org/example/personjsp/PersonServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JEE/exercice/PersonJSP/src/main/resources/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JEE/exercice/quizAPIProject/src/main/java/org/example/quizapiproject/model/Option.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JEE/exercice/quizAPIProject/src/main/java/org/example/quizapiproject/model/Option.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/demo/ApiGateway/src/main/java/org/example/apigateway/controller/CommandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/demo/ApiGateway/src/main/java/org/example/apigateway/controller/CommandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/demo/demoQuakursCommand/src/main/java/org/example/controller/CommandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/demo/demoQuakursCommand/src/main/java/org/example/controller/CommandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/demo/demoQuakursCommand/src/main/java/org/example/entity/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/demo/demoQuakursCommand/src/main/java/org/example/entity/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/demo/demoQuakursCommand/src/main/java/org/example/repository/CommandRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/demo/demoQuakursCommand/src/main/java/org/example/repository/CommandRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/demo/demoQuakursCommand/src/main/java/org/example/service/CommandeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/demo/demoQuakursCommand/src/main/java/org/example/service/CommandeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/demo/demoQuakursCommand/src/main/java/org/example/util/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/demo/demoQuakursCommand/src/main/java/org/example/util/RestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/demo/demoQuarkus/src/main/java/org/example/controller/CommandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/demo/demoQuarkus/src/main/java/org/example/controller/CommandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/demo/demoQuarkus/src/main/java/org/example/dto/CommandDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/demo/demoQuarkus/src/main/java/org/example/dto/CommandDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/Gateway/src/main/java/org/example/gateway/controller/ClassroomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/Gateway/src/main/java/org/example/gateway/controller/ClassroomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/Gateway/src/main/java/org/example/gateway/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/Gateway/src/main/java/org/example/gateway/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/Gateway/src/main/java/org/example/gateway/controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/Gateway/src/main/java/org/example/gateway/controller/TeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/Gateway/src/main/java/org/example/gateway/dto/classroom/Classroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/Gateway/src/main/java/org/example/gateway/dto/classroom/Classroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/Gateway/src/main/java/org/example/gateway/dto/classroom/ClassroomDtoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/Gateway/src/main/java/org/example/gateway/dto/classroom/ClassroomDtoRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/Gateway/src/main/java/org/example/gateway/dto/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/Gateway/src/main/java/org/example/gateway/dto/student/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/Gateway/src/main/java/org/example/gateway/dto/student/StudentDtoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/Gateway/src/main/java/org/example/gateway/dto/student/StudentDtoRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/Gateway/src/main/java/org/example/gateway/dto/teacher/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/Gateway/src/main/java/org/example/gateway/dto/teacher/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/Gateway/src/main/java/org/example/gateway/dto/teacher/TeacherDtoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/Gateway/src/main/java/org/example/gateway/dto/teacher/TeacherDtoRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/Gateway/src/main/java/org/example/gateway/tools/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/Gateway/src/main/java/org/example/gateway/tools/RestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/StudentApi/src/main/java/org/example/studentapi/controller/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/StudentApi/src/main/java/org/example/studentapi/controller/NoteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/StudentApi/src/main/java/org/example/studentapi/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/StudentApi/src/main/java/org/example/studentapi/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/StudentApi/src/main/java/org/example/studentapi/entity/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/StudentApi/src/main/java/org/example/studentapi/entity/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/StudentApi/src/main/java/org/example/studentapi/repository/NoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/StudentApi/src/main/java/org/example/studentapi/repository/NoteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/StudentApi/src/main/java/org/example/studentapi/service/NoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/StudentApi/src/main/java/org/example/studentapi/service/NoteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/Teacher/src/main/java/org/example/teacher/controller/SubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/Teacher/src/main/java/org/example/teacher/controller/SubjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/Teacher/src/main/java/org/example/teacher/dto/request/TeacherRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/Teacher/src/main/java/org/example/teacher/dto/request/TeacherRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/Teacher/src/main/java/org/example/teacher/entity/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/Teacher/src/main/java/org/example/teacher/entity/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/Teacher/src/main/java/org/example/teacher/repository/SubjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/Teacher/src/main/java/org/example/teacher/repository/SubjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/Teacher/src/main/java/org/example/teacher/service/SubjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/Teacher/src/main/java/org/example/teacher/service/SubjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/Teacher/src/main/java/org/example/teacher/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/Teacher/src/main/java/org/example/teacher/service/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/classroom/src/main/java/org/example/classroom/controller/ClassroomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/classroom/src/main/java/org/example/classroom/controller/ClassroomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/classroom/src/main/java/org/example/classroom/dto/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/classroom/src/main/java/org/example/classroom/dto/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservice/exercice/classroom/src/main/java/org/example/classroom/dto/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservice/exercice/classroom/src/main/java/org/example/classroom/dto/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modularité/Exo/libraryApp/app/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modularité/Exo/libraryApp/app/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modularité/Exo/libraryApp/checkOut/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modularité/Exo/libraryApp/checkOut/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Multithreads/Exercices/Exo1_Thread/src/main/java/org/example/exo20/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multithreads/Exercices/Exo1_Thread/src/main/java/org/example/exo20/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Multithreads/Exercices/Exo1_Thread/src/main/java/org/example/exo21/VirtualThreadServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multithreads/Exercices/Exo1_Thread/src/main/java/org/example/exo21/VirtualThreadServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Multithreads/demo/demo_eight_thread/src/main/java/org/example/NativeThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multithreads/demo/demo_eight_thread/src/main/java/org/example/NativeThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBatch/demo/demoSpringBatch/src/main/java/org/example/demospringbatch/config/BatchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBatch/demo/demoSpringBatch/src/main/java/org/example/demospringbatch/config/BatchConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBatch/demo/demoSpringBatch/src/main/java/org/example/demospringbatch/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBatch/demo/demoSpringBatch/src/main/java/org/example/demospringbatch/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBatch/exercice/dinausaursSpringBatch/src/main/java/org/example/dinausaursspringbatch/config/BatchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBatch/exercice/dinausaursSpringBatch/src/main/java/org/example/dinausaursspringbatch/config/BatchConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBatch/exercice/dinausaursSpringBatch/src/main/java/org/example/dinausaursspringbatch/entity/Dinosaur.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBatch/exercice/dinausaursSpringBatch/src/main/java/org/example/dinausaursspringbatch/entity/Dinosaur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/demo/demo_console/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/demo/demo_console/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/demo/demo_console/src/main/java/org/example/BufferReaderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/demo/demo_console/src/main/java/org/example/BufferReaderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/demo/demo_serialization/src/main/java/org/example/SerializationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/demo/demo_serialization/src/main/java/org/example/SerializationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/demo/demo_serialization/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/demo/demo_serialization/src/main/java/org/example/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/activityLog/journal_backup.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/activityLog/journal_backup.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/activityLog/src/main/java/org/example/ActivityJournal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/activityLog/src/main/java/org/example/ActivityJournal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/activityLog/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/activityLog/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/advanture/events.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/advanture/exercice4.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/advanture/src/main/java/org/example/Character.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/advanture/src/main/java/org/example/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/advanture/src/main/java/org/example/Monster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/adventure/events.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/adventure/events.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/bookSerial_Deserial/book.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/bookSerial_Deserial/book.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/bookSerial_Deserial/src/main/java/org/example/DeserializationBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/bookSerial_Deserial/src/main/java/org/example/DeserializationBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/bookSerial_Deserial/src/main/java/org/example/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/bookSerial_Deserial/src/main/java/org/example/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/bookSerial_Deserial/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/bookSerial_Deserial/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/bookSerial_Deserial/src/main/java/org/example/SerializationBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/bookSerial_Deserial/src/main/java/org/example/SerializationBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/fileManipulation/inputData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/fileManipulation/inputData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/fileManipulation/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/fileManipulation/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java IO/exo/fileManipulation/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java IO/exo/fileManipulation/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-I/O/demo/demo_file/src/main/java/org/example/BinaryFileHandle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-I/O/demo/demo_file/src/main/java/org/example/TextFileHandle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_api_rest_webflux/src/main/java/org/example/demo_api_rest_webflux/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_api_rest_webflux/src/main/java/org/example/demo_api_rest_webflux/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_api_rest_webflux/src/main/java/org/example/demo_api_rest_webflux/ProductHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_api_rest_webflux/src/main/java/org/example/demo_api_rest_webflux/ProductHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_api_rest_webflux/src/main/java/org/example/demo_api_rest_webflux/ProductRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_api_rest_webflux/src/main/java/org/example/demo_api_rest_webflux/ProductRouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_api_rest_webflux/src/main/java/org/example/demo_api_rest_webflux/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_api_rest_webflux/src/main/java/org/example/demo_api_rest_webflux/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_base_webflux/src/main/java/org/example/demo_base_webflux/ConsoleReactiveDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_base_webflux/src/main/java/org/example/demo_base_webflux/ConsoleReactiveDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_base_webflux/src/main/java/org/example/demo_base_webflux/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_base_webflux/src/main/java/org/example/demo_base_webflux/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_base_webflux/src/main/java/org/example/demo_base_webflux/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_base_webflux/src/main/java/org/example/demo_base_webflux/NotificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_base_webflux/src/main/java/org/example/demo_base_webflux/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_base_webflux/src/main/java/org/example/demo_base_webflux/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_mongoDB_webflux/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_mongoDB_webflux/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_mongoDB_webflux/src/main/java/org/example/demo_mongodb_webflux/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_mongoDB_webflux/src/main/java/org/example/demo_mongodb_webflux/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_mongoDB_webflux/src/main/java/org/example/demo_mongodb_webflux/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_mongoDB_webflux/src/main/java/org/example/demo_mongodb_webflux/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_mongoDB_webflux/src/main/java/org/example/demo_mongodb_webflux/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_mongoDB_webflux/src/main/java/org/example/demo_mongodb_webflux/ItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_mongoDB_webflux/src/main/java/org/example/demo_mongodb_webflux/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_mongoDB_webflux/src/main/java/org/example/demo_mongodb_webflux/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exercices/exo8/src/main/java/org/example/exo8/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercices/exo8/src/main/java/org/example/exo8/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exercices/exo8/src/main/java/org/example/exo8/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercices/exo8/src/main/java/org/example/exo8/repository/OrderRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2ryvvTeLEk9cqdQeVlY2dn0D6cv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="DemoValidationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo_JWT" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.demo_validation.DemoValidationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be23b712-15eb-41ba-8043-4ffa0afb1d79" name="Changes" comment="" />
+      <created>1737544360275</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737544360275</updated>
+      <workItem from="1737544361466" duration="2568000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
